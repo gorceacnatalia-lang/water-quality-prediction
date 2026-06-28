@@ -2,29 +2,43 @@
 
 ## Overview
 
-This project was developed as part of my Bachelor's thesis and explores the use of machine learning techniques for water quality analysis and prediction based on environmental sensor data.
+This project was developed as part of my Bachelor's thesis under academic supervision.
+
+The objective was to analyze water quality data and explore machine learning techniques for anomaly detection, clustering and prediction.
 
 ## Features
 
 - Data preprocessing and cleaning
-- Exploratory data analysis
+- Exploratory Data Analysis (EDA)
+- Correlation analysis
 - Data visualization
-- Machine learning models for prediction
-- Anomaly detection
-- Performance evaluation
+- Anomaly detection using Isolation Forest
+- Clustering using K-Means
+- Dimensionality reduction using PCA
+- Water quality prediction using Random Forest
 
 ## Technologies
 
 - Python
 - Pandas
 - NumPy
-- Scikit-learn
 - Matplotlib
+- Seaborn
+- Scikit-learn
+
+## Repository contents
+
+- `water_quality_prediction.ipynb` – complete notebook containing the analysis and machine learning workflow.
+- `requirements.txt` – required Python libraries.
 
 ## Dataset
 
-The original dataset used in this academic project is not publicly available and is therefore not included in this repository.
+The dataset used in this academic project is not included because it was provided within the academic environment and is not available for public redistribution.
 
-## Status
+The notebook is shared to demonstrate the methodology and implementation.
 
-🚧 Project currently being organized and documented.
+## Future Improvements
+
+- Add a sample dataset for demonstration.
+- Split the notebook into reusable Python modules.
+- Improve documentation and visualization.
